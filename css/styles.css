@@ -1,0 +1,30 @@
+.header {
+  width: 70%;
+  margin: 0 auto;
+}
+
+span {
+  color: white;
+  margin: auto;
+}
+
+a.navbar-brand {
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+
+.navbar a.nav-link {
+  font-weight: 700;
+}
+
+.green-circle {
+  width: 45px;
+  height: 45px;
+  background-color: #7db122;
+  margin-right: 10px;
+}
+
+.cart {
+  color: #656565;
+  font-weight: 700;
+}

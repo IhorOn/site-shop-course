@@ -1,30 +1,116 @@
-.header {
-  width: 70%;
-  margin: 0 auto;
+@font-face {
+  font-family: "Open Sans";
+  src: url(/fonts/OpenSans-Regular.ttf) format("truetype");
+  font-weight: 400;
 }
 
-span {
+@font-face {
+  font-family: "Open Sans";
+  src: url(/fonts/OpenSans-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
+.header-site {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 13px;
+}
+
+div {
+  padding: 0px !important;
+}
+
+.header-top-line {
+  background-color: #4cb1ca;
+}
+
+.header-top-line a {
   color: white;
-  margin: auto;
 }
 
 a.navbar-brand {
-  font-size: 2.7rem;
-  font-weight: 700;
+  font-size: 36px;
+  font-weight: bold;
+  margin-right: 50px;
 }
 
-.navbar a.nav-link {
-  font-weight: 700;
+.header-left-menu {
+  padding: 8px 0px !important;
 }
 
-.green-circle {
-  width: 45px;
-  height: 45px;
+.header-navbar-main {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.lang-color {
+  color: #b2eaf8;
+  padding-right: 5px;
+}
+
+a.header-top-line-left-item {
+  display: inline-block;
+  padding: 10px 20px 10px 0px;
+  text-decoration: none !important;
+}
+
+a.nav-top-line-right-item {
+  padding: 10px 0px 10px 16px;
+}
+
+a.nav-top-line-right-item.line::after {
+  content: "|";
+  margin-left: 20px;
+}
+
+.header-top-line-right-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-navbar-right-side {
+  display: flex;
+  margin: 24px 0px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.img-circle-ticket,
+.img-circle-cart {
+  width: 30px;
+  height: 30px;
   background-color: #7db122;
-  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.img-circle-ticket {
+  margin: 0px 2px 0px 10px;
+}
+
+.img-circle-cart {
+  margin: 0px 10px 0px 2px;
+}
+
+.img-tags,
+.img-cart {
+  margin: 6px;
+}
+
+.img-search {
+  position: relative;
+  left: -20px;
 }
 
 .cart {
   color: #656565;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none !important;
 }
+
+/* .green-circle {
+  width: 45px;
+  height: 45px;
+  background-color: #7db122;
+  margin-right: 10px;
+} */ ;

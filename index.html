@@ -16,36 +16,51 @@
 <body>
 
     <header class="header-site">
-
         <div class="header-top-line">
             <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                        <a class="header-top-line-left-item" href="#">
-                            <span class="lang-color">Language:</span>English <i class="fas fa-angle-down"></i>
-                        </a>
-
-                        <a class="header-top-line-left-item" href="#">
-                            <span class="lang-color">Currency:</span>USD <i class="fas fa-angle-down"></i>
-                        </a>
+                <div class="row justify-content-between">
+                    <div class="col-4 header-column">
+                        <ul class="nav option">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link selection-color-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <span class="selection-color">Language:</span>English <i class="fas fa-angle-down"></i>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Ukraine</a>
+                                    <a class="dropdown-item" href="#">Russian</a>
+                                    <a class="dropdown-item" href="#">Spain</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link selection-color-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <span class="selection-color">Currency:</span>USD <i class="fas fa-angle-down"></i>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">UAH</a>
+                                    <a class="dropdown-item" href="#">RUB</a>
+                                    <a class="dropdown-item" href="#">EUR</a>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-3"></div>
-                    <div class="col-5 header-top-line-right-menu">
+                    <div class="col-5 header-column header-top-line__user-selection">
                         <ul class="nav">
                             <li class="nav-item ">
-                                <a class="nav-link nav-top-line-right-item line" href="#">Account</a>
+                                <a class="nav-link header-top-line__user-selection separator selection-color-link" href="#">Account</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav-top-line-right-item line" href="#">Wishlist</a>
+                                <a class="nav-link header-top-line__user-selection separator selection-color-link" href="#">Wishlist</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav-top-line-right-item line" href="#">Checkout</a>
+                                <a class="nav-link header-top-line__user-selection separator selection-color-link" href="#">Checkout</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav-top-line-right-item line" href="#">Log In</a>
+                                <a class="nav-link header-top-line__user-selection separator selection-color-link" href="#">Log In</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav-top-line-right-item" href="#">Sign Up</a>
+                                <a class="nav-link header-top-line__user-selection selection-color-link" href="#">Sign Up</a>
                             </li>
                         </ul>
                     </div>
@@ -55,16 +70,16 @@
 
         <div class="header-navbar">
             <div class="container">
-                <div class="row">
-                    <div class="col-7 header-navbar-left-side">
-                        <nav class="navbar navbar-expand-lg navbar-light header-left-menu" >
-                            <a class="navbar-brand" href="#" style="color: #656565;">LEO SHOP</a>
+                <div class="row justify-content-between">
+                    <div class="col-7 header-column">
+                        <nav class="navbar navbar-expand-lg navbar-light" >
+                            <a class="navbar-brand header-logo" href="#" style="color: #656565;">LEO SHOP</a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                         
-                            <div class="collapse navbar-collapse header-navbar-main" id="navbarSupportedContent">
+                            <div class="collapse navbar-collapse header-main-menu" id="navbarSupportedContent">
                                 <ul class="navbar-nav mr-auto">
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">HOME</a>
@@ -85,22 +100,17 @@
                             </div> 
                         </nav>
                     </div>
-                    <div class="col-1"></div>
-                    <div class="col-4">
-                        <div class="header-navbar-right-side">
-                            <input  placeholder="Search..">
+                    <div class="col-4 header-column">
+                        <div class="selection-search">
+                            <input class="search-place"  placeholder="Search..">
                             <a class="" href="#">
-                                <img class="img-search" width="16px" src="images/search-solid.svg" alt="search">
+                                <i class="fas fa-search img-search"></i>
                             </a>
-                            <a href="#">
-                                <div class="img-circle-ticket">
-                                    <img class="img-tags" width="18px" src="images/tags-solid1.png" alt="tags">
-                                </div>
+                            <a class="img-tags-place" href="#">
+                                <i class="fas fa-tags img-tags"></i>
                             </a>
-                            <a href="#">
-                                <div class="img-circle-cart">
-                                    <img class="img-cart" width="18px" src="images/shopping-cart-solid1.png" alt="cart">
-                                </div>
+                            <a class="img-cart-place" href="#">
+                                <i class="fas fa-shopping-cart img-cart"></i>
                             </a>
                             <a class="cart" href="#">CART (0)</a>
                         </div>

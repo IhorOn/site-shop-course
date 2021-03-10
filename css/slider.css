@@ -23,6 +23,12 @@
   align-items: center;
 }
 
+.slider__arrow-left:hover,
+.slider__arrow-right:hover {
+  text-decoration: none;
+  color: #656565;
+}
+
 .slider__arrow-left {
   position: relative;
   left: -5%;

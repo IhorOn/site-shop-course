@@ -29,10 +29,6 @@
   transition: 0.4s;
 }
 
-div.header-column {
-  /* padding: 0px; */
-}
-
 a.header-logo {
   font-size: 36px;
   font-weight: bold;

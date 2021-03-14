@@ -26,24 +26,21 @@
   font-size: 35px;
 }
 
-.slider__arrow-left::after {
+.slider-nav-btn::after {
   display: inline;
   font-family: "Fontawesome";
-  content: "\f053";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+.slider__arrow-left::after {
+  content: "\f053";
+}
+
 .slider__arrow-right::after {
-  display: inline;
-  font-family: "Fontawesome";
   content: "\f054";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .slider-nav-btn:hover {

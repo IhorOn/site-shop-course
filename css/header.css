@@ -98,7 +98,6 @@ a.header-top-line__user-selection.separator::after {
   text-align: center;
   padding: 9px 0px;
   color: white;
-  /* margin-right: 6px; */
 }
 
 .img-tags-place {
@@ -111,7 +110,10 @@ a.header-top-line__user-selection.separator::after {
 
 .img-tags-place:hover,
 .img-cart-place:hover {
-  color: white;
+  color: #7db122;
+  background-color: #fff;
+  border: 1px solid #7db122;
+  transition: 0.4s;
 }
 
 input.search-place {
@@ -135,5 +137,5 @@ div.selection-search a.cart {
 
 div.selection-search a.cart:hover {
   color: rgb(168, 167, 167);
-  transition: 0.4;
+  transition: 0.4s;
 }

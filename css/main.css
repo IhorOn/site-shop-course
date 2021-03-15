@@ -1,0 +1,91 @@
+.main-site-titel {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #635f57;
+}
+
+.main-site__container {
+  padding-top: 30px;
+}
+
+.main-site__column {
+  margin-bottom: 20px;
+}
+
+.main-site-item__image {
+  height: 270px;
+}
+
+.main-site-item__title {
+  color: #59545a;
+  padding-left: 5px;
+}
+
+.main-site-item__price {
+  color: #7db122;
+  padding-left: 5px;
+}
+
+.main-site-btn-buy {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  background-color: #7db122;
+  border-radius: 50%;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+}
+
+.main-site-btn-buy:hover {
+  color: #7db122;
+  background-color: #fff;
+  border: 1px solid #7db122;
+  transition: 0.4s;
+}
+
+.main-site-btn-buy::after {
+  display: inline;
+  content: "\f291";
+  font-family: "Fontawesome";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-site-item__btn-buy {
+  position: absolute;
+  right: 15%;
+  bottom: 0%;
+}
+
+.main-site-tape-new {
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #4cb1ca;
+  text-transform: uppercase;
+  padding: 7px;
+  transform: rotate(35deg);
+  position: absolute;
+  right: 8%;
+  top: 5%;
+}
+
+.main-site-tape-sale {
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #7db122;
+  text-transform: uppercase;
+  padding: 7px;
+  transform: rotate(-35deg);
+  position: absolute;
+  left: 8%;
+  top: 5%;
+}

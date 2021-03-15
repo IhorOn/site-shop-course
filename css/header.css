@@ -16,6 +16,12 @@
   font-weight: 300;
 }
 
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Semibold.ttf) format("truetype");
+  font-weight: 600;
+}
+
 .header-site {
   font-family: "Open Sans";
   font-weight: 400;

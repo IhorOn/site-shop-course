@@ -36,6 +36,11 @@
   color: white;
 }
 
+a.header__dropdown-item {
+  color: #656565;
+  font-size: 14px;
+}
+
 .header-top-line a:hover {
   color: #656565;
   transition: 0.4s;

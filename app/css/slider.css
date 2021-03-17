@@ -8,15 +8,23 @@
   position: relative;
 }
 
-.slider__content {
+.slider__column {
   display: flex;
   align-items: center;
+}
+
+.slider__content {
   position: absolute;
-  top: 170px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slider-box {
+  margin-left: 50px;
 }
 
 .slider-nav-btn {
-  position: relative;
   width: 60px;
   height: 60px;
   background-color: #fff;

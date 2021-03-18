@@ -99,32 +99,29 @@ a.header-top-line__user-selection.separator::after {
   align-items: center;
 }
 
-.img-tags-place,
-.img-cart-place {
+.site-btn__header::after {
   display: inline;
+  font-family: "Fontawesome";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn__tags::after {
+  content: "\f02c";
+}
+
+.btn__cart::after {
+  content: "\f07a";
+}
+
+.site-btn__header {
+  position: absolute;
   width: 35px;
   height: 35px;
-  background-color: #7db122;
-  border-radius: 50%;
-  text-align: center;
-  padding: 9px 0px;
-  color: white;
-}
-
-.img-tags-place {
-  margin-right: 3px;
-}
-
-.img-cart-place {
-  margin-right: 10px;
-}
-
-.img-tags-place:hover,
-.img-cart-place:hover {
-  color: #7db122;
-  background-color: #fff;
-  border: 1px solid #7db122;
-  transition: 0.4s;
+  font-size: 15px;
+  margin-right: 5px;
 }
 
 input.search-place {

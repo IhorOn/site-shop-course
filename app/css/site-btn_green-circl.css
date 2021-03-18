@@ -1,0 +1,14 @@
+.site-btn_green-circle {
+  position: relative;
+  background-color: #7db122;
+  border-radius: 50%;
+  color: #fff;
+  border: none;
+}
+
+.site-btn_green-circle:hover {
+  color: #7db122;
+  background-color: #fff;
+  border: 1px solid #7db122;
+  transition: 0.4s;
+}

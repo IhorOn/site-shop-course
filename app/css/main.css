@@ -1,22 +1,22 @@
-.main-site-titel {
+.main-titel {
   font-size: 24px;
   text-transform: uppercase;
   color: #635f57;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
-.main-site-item {
+.card-product {
+  overflow: hidden;
+  box-shadow: 0px 0px 3px #b4b6b0;
 }
 
-.main-site__container {
-  padding-top: 30px;
+.card__image {
+  margin: 0 auto;
 }
 
-.main-site__column {
+.main-site__cell {
   margin-bottom: 20px;
-}
-
-.main-site-item__image {
-  height: 270px;
 }
 
 .main-site-item__title {
@@ -59,37 +59,42 @@
 
 .main-site-item__btn-buy {
   position: absolute;
-  right: 15%;
+  right: 25%;
   bottom: 0%;
 }
 
-.main-site-tape-new {
-  width: 100px;
-  text-align: center;
+.ribbon-item {
+  position: relative;
   font-size: 15px;
   font-weight: 600;
   color: #fff;
-  background-color: #4cb1ca;
   text-transform: uppercase;
-  padding: 7px;
-  transform: rotate(35deg);
-  position: absolute;
-  right: 8%;
-  top: 5%;
 }
 
-
-.main-site-tape-sale {
-  width: 100px;
+.card__ribbon-new::after {
+  display: inline;
+  content: "new";
+  width: 250px;
   text-align: center;
-  font-size: 15px;
-  font-weight: 600;
-  color: #fff;
-  background-color: #7db122;
-  text-transform: uppercase;
   padding: 7px;
+  background-color: #4cb1ca;
+  box-shadow: 0px 0px 5px #4cb1ca;
+  transform: rotate(35deg);
+  position: absolute;
+  right: -30%;
+  top: 15px;
+}
+
+.card__ribbon-sale::after {
+  display: inline;
+  content: "sale";
+  width: 250px;
+  text-align: center;
+  padding: 7px;
+  background-color: #7db122;
+  box-shadow: 0px 0px 5px #7db122;
   transform: rotate(-35deg);
   position: absolute;
-  left: 8%;
-  top: 5%;
+  left: -30%;
+  top: 15px;
 }

@@ -15,11 +15,13 @@
 
 .card__image {
   margin: 50px 0px;
+  width: 245px;
 }
 
-.image-box {
+.image__box {
   background-color: #eff1f0;
   margin: 0px auto;
+  width: 245px;
 }
 
 .card-product__info {
@@ -65,7 +67,7 @@
   text-transform: uppercase;
 }
 
-.card__ribbon-new::after {
+.card__ribbon_new::after {
   display: inline;
   content: "new";
   width: 250px;
@@ -79,7 +81,7 @@
   top: 15px;
 }
 
-.card__ribbon-sale::after {
+.card__ribbon_sale::after {
   display: inline;
   content: "sale";
   width: 250px;

@@ -1,4 +1,4 @@
-.card-product__title {
+.card-product__category {
   font-size: 24px;
   text-transform: uppercase;
   color: #635f57;
@@ -32,15 +32,15 @@
   margin-bottom: 20px;
 }
 
-.main-site-item__title {
+.card-product__title {
   color: #59545a;
 }
 
-.main-site-item__price {
+.card-product__price {
   color: #7db122;
 }
 
-.site-btn__main::after {
+.card-product__btn::after {
   display: inline;
   content: "\f291";
   font-family: "Fontawesome";
@@ -50,7 +50,7 @@
   transform: translate(-50%, -50%);
 }
 
-.site-btn__main {
+.card-product__btn {
   position: absolute;
   right: 25%;
   bottom: 0%;

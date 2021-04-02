@@ -12,3 +12,16 @@
   border: 1px solid #7db122;
   transition: 0.4s;
 }
+
+.site-btn_white-circle {
+  position: relative;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #39a0b9;
+  border: none;
+}
+
+.site-btn_white-circle:hover {
+  background-color: #d6f9ff;
+  transition: 0.4s;
+}

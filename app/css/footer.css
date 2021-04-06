@@ -1,4 +1,4 @@
-.footer__navigation {
+.site-footer {
   color: #fff;
   font-size: 13px;
 }
@@ -70,20 +70,21 @@
   padding: 30px 0px;
 }
 
-.title-contact-nav {
+.title__contact-nav {
   font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
 
 .facebook__like {
+  display: block;
   background-color: #fff;
   background-image: url(../images/like.png);
   width: 47px;
   height: 23px;
 }
 
-.footer__user-photo {
+.footer__user-photos {
   list-style: none;
   display: flex;
   padding: 0px;
@@ -91,8 +92,8 @@
   flex-wrap: wrap;
 }
 
-.footer__user-photo::before,
-.footer__user-photo::after {
+.footer__user-photos::before,
+.footer__user-photos::after {
   height: 1px;
   width: 230px;
   background-color: #8adcf0;
@@ -101,11 +102,11 @@
   content: "";
 }
 
-.user-photo {
+.footer__user-photos img {
   padding: 4px;
 }
 
-.btn-twitter {
+.btn__twitter {
   width: 40px;
   height: 40px;
   font-size: 20px;
@@ -113,7 +114,7 @@
   left: 10px;
 }
 
-.btn-twitter::before {
+.btn__twitter::before {
   display: inline;
   font-family: "Fontawesome";
   position: absolute;
@@ -138,7 +139,7 @@
 }
 
 .twitter-text_link:hover,
-.footer__information-list:hover,
+.footer__info-link:hover,
 .footer__contact-us-list:hover,
 .footer__menu-item:hover {
   text-decoration: none;
@@ -155,12 +156,12 @@
   padding: 0px;
 }
 
-.footer__information-list,
+.footer__info-link,
 .footer__contact-us-list {
   color: #fff;
 }
 
-.footer__information-list::before {
+.footer__info-link::before {
   content: "\f054";
   font-family: "Fontawesome";
   margin-right: 10px;
@@ -181,36 +182,31 @@
   display: flex;
 }
 
-.footer__social-media-item {
+a.footer__social-media-link {
+  display: block;
   width: 35px;
   height: 35px;
   background-color: #fff;
-  border-radius: 50px;
-  margin-right: 8px;
-  font-size: 20px;
-  position: relative;
-}
-
-.footer__social-media-item:hover {
-  background-color: #d6f9ff;
-  transition: 0.4s;
-}
-
-a.footer__social-media-link {
+  border-radius: 50%;
   color: #4cb1ca;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  font-size: 20px;
+  margin-right: 8px;
 }
 
 a.footer__social-media-link:hover {
   text-decoration: none;
   color: #4cb1ca;
+  background-color: #d6f9ff;
+  transition: 0.4s;
 }
 
 a.footer__social-media-link::after {
   font-family: "Fontawesome";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .btn__google::after {
@@ -251,7 +247,7 @@ a.footer__social-media-link::after {
   justify-content: center;
 }
 
-.footer__menu-item-separator::after {
+.footer__menu-item_separator::after {
   content: "|";
   margin-left: 15px;
   color: #8adcf0;
